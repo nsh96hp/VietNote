@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/alarm_dialog"
+    android:background="#fff"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cn_bg1"
+        android:text="@string/create_pin_note"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#B71C1C"/>
+    <EditText
+        android:id="@+id/edt_key_pin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pin48n"
+        android:textColor="#000"
+        android:gravity="center"
+        android:inputType="numberPassword"/>
+    <EditText
+        android:id="@+id/edt_key_pin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pin"
+        android:textColor="#000"
+
+        android:gravity="center"
+        android:inputType="numberPassword"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_pin_back"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cn_bg1"
+            android:layout_weight="1"
+            android:text="@string/back"
+            android:textColor="#fff"
+            android:background="#37474F"/>
+        <Button
+            android:id="@+id/btn_pin_ok"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cn_bg1"
+            android:layout_weight="1"
+            android:text="@string/ok"
+            android:textColor="#fff"
+            android:background="#00897B"/>
+    </LinearLayout>
+</LinearLayout>

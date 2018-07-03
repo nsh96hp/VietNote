@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ghi chú</string>
+    <string name="share">Chia sẻ ứng dụng</string>
+    <string name="rateapp">Đánh giá ứng dụng</string>
+    <string name="image_of_note">Chọn ảnh</string>
+    <string name="title_note">Tiêu đề</string>
+    <string name="save">Lưu</string>
+    <string name="doyouwanttosave">Bạn muốn lưu</string>
+    <string name="doyouwanttosave1">Bạn muốn lưu ghi chú chú ý?</string>
+
+    <string name="password">Mật khẩu</string>
+    <string name="back">Quay lại</string>
+    <string name="create_pin_note">Tạo mã PIN</string>
+    <string name="pin48n">Mã PIN 4-8 số</string>
+    <string name="pin">Mã PIN</string>
+    <string name="ok">Đồng ý</string>
+    <string name="dont_re_pass">Bạn không nhớ mật khẩu ghi chú</string>
+    <string name="unlock_all">Bỏ khóa tất cả mật khẩu ghi chú</string>
+    <string name="time_notification">Hẹn giờ thông báo</string>
+    <string name="hours">Giờ</string>
+    <string name="day">Ngày</string>
+    <string name="hours024">Giờ 0-24</string>
+    <string name="day015">Ngày 0-15</string>
+    <string name="not_share">Không thể chia sẻ ứng dụng</string>
+    <string name="not_rate">Không thể mở ứng dụng trên CH Play</string>
+    <string name="login">Đăng nhập</string>
+    <string name="next_time_alarm">"Giờ thông báo tiếp: "</string>
+    <string name="fail">Lỗi!</string>
+    <string name="contentisempty">Nội dung trống!</string>
+    <string name="write_denied">Không có quyền đọc ghi dữ liệu!</string>
+    <string name="note">Ghi chú</string>
+    <string name="no_title">Không tiêu đề</string>
+    <string name="deleted"> đã xóa!</string>
+    <string name="do_you_want_delete">Bạn muốn xóa ghi chú?</string>
+    <string name="do_you_want_delete_img">Bạn muốn xóa ảnh?</string>
+    <string name="Choose_img">Bạn muốn chọn ảnh?</string>
+    <string name="Done"> Thành công!</string>
+    <string name="content">Nội dung</string>
+    <string name="content1">Nội dung...</string>
+    <string name="datetime">Thời gian: </string>
+    <string name="noti_note">Thông báo: Bạn có ghi chú lúc</string>
+    <string name="stickynote">Ghi chú quan trọng</string>
+    <string name="delete_img">Xóa ảnh</string>
+
+    <string-array name="dv_time">
+        <item>Giờ</item>
+        <item>Ngày</item>
+    </string-array>
+
+    <string name="Sort">Sắp xếp</string>
+    <string name="Sort_title">Tiêu đề</string>
+    <string name="Sort_created">Thời gian tạo</string>
+    <string name="Sort_alarm">Thời gian thông báo</string>
+    <string name="share_img">Chia sẻ ảnh</string>
+    <string name="record">Ghi âm</string>
+    <string name="record_delete">Xóa ghi âm</string>
+
+
+    <string name="start_record">Bắt đầu ghi âm</string>
+    <string name="end_record">Kết thúc ghi âm</string>
+    <string name="play_record">Nghe</string>
+    <string name="pause_record">Dừng</string>
+
+    <string name="Time">Thời gian :</string>
+    <string name="replaceRecord">Bạn muốn thay thế bản ghi âm?</string>
+    <string name="deleteRecord">Bạn muốn xóa bản ghi âm?</string>
+    <string name="deleteAllRecord">Bạn muốn xóa tất cả bản ghi âm?</string>
+    <string name="deleteAllImg">Bạn muốn xóa tất cả các ảnh?</string>
+    <string name="No">Không</string>
+    <string name="Yes">Có</string>
+    <string name="savechanged">Bạn muốn lưu những thay đổi?</string>
+
+    <string name="manyImg">Bạn có nhiều hơn 6 bức ảnh!</string>
+    <string name="manyRcd">Bạn có nhiều hơn 6 bản ghi!</string>
+    <string name="pls_delete">Làm ơn xóa 1 bức ảnh?</string>
+    <string name="pls_record">Làm ơn xóa 1 bản ghi âm?</string>
+</resources>

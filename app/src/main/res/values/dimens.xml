@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cn_bg1">32dp</dimen>
+    <dimen name="cn_btnheight">40dp</dimen>
+    <dimen name="cn_txtTitle">16dp</dimen>
+    <dimen name="cn_txtTitle1">20dp</dimen>
+    <dimen name="cn_padding_content">4dp</dimen>
+    <dimen name="cn_edtsize">220dp</dimen>
+    <dimen name="cn_img">160dp</dimen>
+    <dimen name="cn_img_edit">260dp</dimen>
+    <dimen name="cn_camera">52dp</dimen>
+    <dimen name="cn_gellary">56dp</dimen>
+
+    <dimen name="main_padding_rcv">8dp</dimen>
+
+    <dimen name="alarm_dialog">240dp</dimen>
+
+    <dimen name="lst_note_height">80dp</dimen>
+
+
+</resources>

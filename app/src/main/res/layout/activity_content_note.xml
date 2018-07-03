@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_note1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#388E3C"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/cn_tittle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="10"
+                android:background="@android:color/transparent"
+                android:hint="@string/title_note"
+                android:padding="1dp"
+                android:textColor="#FFCA28"
+                android:textColorHint="#FFCA28"
+                android:textSize="@dimen/cn_txtTitle1"
+                android:textStyle="bold" />
+
+            />
+
+            <TextView
+                android:id="@+id/cn_datetime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:padding="1dp"
+                android:text="24/03/1996"
+                android:textColor="#fff"
+                android:textSize="@dimen/cn_txtTitle"
+                android:textStyle="italic" />
+
+            <ImageButton
+                android:id="@+id/btn_date_time"
+                android:layout_width="@dimen/cn_bg1"
+                android:layout_height="@dimen/cn_bg1"
+                android:layout_gravity="center"
+                android:background="#388E3C"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_datetimepicker" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#558B2F"></View>
+
+        <ScrollView
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                android:padding="@dimen/cn_padding_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_record1"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8dp"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/btn_start_record"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cn_bg1"
+                        android:layout_weight="1"
+                        android:text="@string/start_record"
+                        android:textColor="#fff"
+                        android:background="#2962FF"/>
+                    <Button
+                        android:id="@+id/btn_end_record"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/cn_bg1"
+                        android:layout_weight="1"
+                        android:text="@string/end_record"
+                        android:textColor="#fff"
+                        android:background="#F44336"/>
+                </LinearLayout>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rcv_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rcv_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+
+                <EditText
+                    android:id="@+id/cn_content"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/cn_edtsize"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="8dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="top"
+                    android:hint="@string/content"
+                    android:textColor="#000"
+                    android:textSize="@dimen/cn_txtTitle" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

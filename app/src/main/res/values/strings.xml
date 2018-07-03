@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Note</string>
+
+    <string name="share">Share App</string>
+    <string name="rateapp">Rate App</string>
+    <string name="image_of_note">Choose Image</string>
+    <string name="title_note">Title Note</string>
+    <string name="save">Save</string>
+    <string name="doyouwanttosave">Do you want to save?</string>
+    <string name="doyouwanttosave1">Do you want to save sticky note?</string>
+    <string name="password">Password</string>
+    <string name="back">Back</string>
+
+    <string name="create_pin_note">CREATE PIN NOTE</string>
+    <string name="pin48n">PIN 4-8 Number</string>
+    <string name="pin">PIN</string>
+    <string name="ok">OK</string>
+    <string name="dont_re_pass">Don\'t Rememer Note\'Password?</string>
+    <string name="unlock_all">Unlock All Note!</string>
+
+    <string name="time_notification">Time Notification</string>
+    <string name="hours">Hours</string>
+    <string name="day">Day</string>
+    <string name="hours024">Hours 0-24</string>
+    <string name="day015">Day 0-15</string>
+
+    <string name="not_share">Could not share app!</string>
+    <string name="not_rate">Could not open Android Market</string>
+    <string-array name="dv_time">
+        <item>Hours</item>
+        <item>Day</item>
+    </string-array>
+    <string name="login">Login</string>
+
+    <string name="next_time_alarm">Next time alarm: </string>
+    <string name="fail">Faild!</string>
+    <string name="contentisempty">Content is empty!</string>
+    <string name="write_denied">WRITE_CONTACTS Denied</string>
+
+    <string name="note">Note</string>
+    <string name="no_title">No title</string>
+    <string name="deleted">Deleted!</string>
+    <string name="Done">Done !</string>
+    <string name="do_you_want_delete">Do you want delete note?</string>
+    <string name="do_you_want_delete_img">Do you want delete image?</string>
+
+    <string name="Choose_img">Do you want choose image?</string>
+    <string name="content">Content</string>
+    <string name="content1">Content...</string>
+    <string name="datetime">Time: </string>
+
+    <string name="noti_note">Notification: have note at</string>
+
+    <string name="stickynote">Important note</string>
+    <string name="delete_img">Delete Image</string>
+    <string name="Sort">Sort</string>
+    <string name="Sort_title">Title</string>
+    <string name="Sort_created">Time created note</string>
+    <string name="Sort_alarm">Time alarm</string>
+
+    <string name="share_img">Share Image</string>
+    <string name="record">Record</string>
+    <string name="record_delete">Delete Record</string>
+    <string name="start_record">Start Record</string>
+    <string name="end_record">End Record</string>
+    <string name="play_record">Play</string>
+    <string name="pause_record">Pause</string>
+
+
+    <string name="Time">Time :</string>
+    <string name="replaceRecord">Do you want replace the record?</string>
+    <string name="deleteRecord">Do you want delete the record?</string>
+    <string name="deleteAllRecord">Do you want delete all record?</string>
+    <string name="deleteAllImg">Do you want delete all image?</string>
+
+    <string name="No">No</string>
+    <string name="Yes">Yes</string>
+    <string name="savechanged">Do you want save the changes?</string>
+
+    <string name="manyImg">You have more than 6 photo!</string>
+    <string name="manyRcd">You have more than 6 record!</string>
+    <string name="pls_delete">Please delete a photo?</string>
+    <string name="pls_record">Please delete a record?</string>
+
+
+
+
+</resources>

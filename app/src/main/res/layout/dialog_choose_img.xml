@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/alarm_dialog"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:padding="4dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cn_bg1"
+        android:text="@string/Choose_img"
+        android:textSize="@dimen/cn_txtTitle"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#3949AB"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn_gallery"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_gallery"
+            android:background="#37474F"/>
+        <ImageButton
+            android:id="@+id/btn_cam"
+            android:layout_width="0dp"
+            android:scaleType="fitCenter"
+
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_camera1"
+            android:textColor="#fff"
+            android:background="#00897B"/>
+    </LinearLayout>
+</LinearLayout>
